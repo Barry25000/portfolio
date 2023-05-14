@@ -4,20 +4,24 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    min-width: 200px;
     justify-content: flex-start;
   }
 
   header {
-    display: flex;
-    padding: 20px;
-    text-align: top;
+    /* display: flex; */
+    padding: 20px 0 0 20px;
+    text-align: left;
+    /* text-justify: inherit; */
     background: #13293d;
     color: #fff;
   }
 
   nav {
     display: flex;
-    justify-content: right;
+    text-justify: right;
+    flex-wrap: wrap;
+    /* justify-content: flex-end; */
     color: white; 
 }
 
@@ -28,10 +32,26 @@ body {
     text-align: right;
   }
 
-  section about_me {
-    display: block;
+  #about_me {
+    /* display: block; */
     padding: 20px;
-    text-align: right;
+    text-align: left;
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  #work {
+    padding: 20px;
+    text-align: left;
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  #contact_me {
+    padding: 20px;
+    text-align: left;
+    display: inline-block;
+    margin-left: 20px;
   }
 
   footer {
@@ -41,4 +61,6 @@ body {
     color: black; 
   }
 
- 
+  a:hover {
+    color: green;
+  }

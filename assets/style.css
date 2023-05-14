@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+  }
+
+  header {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }
+
+  nav {
+    display: flex;
+    justify-content: right;
+    color: white; 
+}
+
+  nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: right;
+  }
+
+  section about_me {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+  }

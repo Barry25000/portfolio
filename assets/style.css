@@ -10,7 +10,7 @@ body {
   header {
     display: flex;
     padding: 20px;
-    text-align: center;
+    text-align: top;
     background: #13293d;
     color: #fff;
   }
@@ -29,7 +29,16 @@ body {
   }
 
   section about_me {
+    display: block;
+    padding: 20px;
+    text-align: right;
+  }
+
+  footer {
     display: flex;
     padding: 20px;
-    text-align: center;
+    text-align: top;
+    color: black; 
   }
+
+ 

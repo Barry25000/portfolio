@@ -46,7 +46,6 @@ body {
     align-items: center;
     display: flex;
     color: black;
-
   }
 
   #about_me {
@@ -60,16 +59,16 @@ body {
   }
 
   #about_me h1 {
-  border-right: 3px solid;
-  padding-right: 10px;
-  padding-top: 15px;
-  padding-left: 6px;
-  font-size: 25px;
+    border-right: 3px solid;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-left: 6px;
+    font-size: 25px;
   }
 
   #about_me p {
-  width: 75%;
-  padding-left: 52px;
+    width: 75%;
+    padding-left: 52px;
   }
 
   #work {
@@ -80,8 +79,6 @@ body {
     margin-left: 4px;
   }
 
- 
-  
   #work h1 {
     border-right: 3px solid;
     padding-left: 119px;
@@ -89,11 +86,9 @@ body {
     padding-right: 8px;
     font-size: 25px;
   }
-  
-    
+      
   #work img {
-    /* width: 75%; */
-    padding-left: 50px;
+   padding-left: 50px;
   }
   
   footer {
@@ -122,7 +117,7 @@ body {
     align-items: center;
     justify-content: right;
     padding-left: 51px;
-    }
+  }
 
   footer a {
     color: black;
@@ -133,8 +128,4 @@ body {
 
   a:hover {
     color: green;
-  }
-
-  /* a:visited {
-    color: red;
-  } */
+  }  

@@ -34,7 +34,7 @@ body {
   .pop_text {
     height: 30px;
     width: 200px;
-    background-color: purple;
+    background-color: rgb(222, 167, 222);
     position: absolute;
     padding: 1px 1px 1px 1px;
     bottom: -15px;
@@ -43,6 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+    color: black;
 
   }
 

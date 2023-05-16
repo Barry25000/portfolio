@@ -30,15 +30,21 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-# My comments
+# My Comments
 
-I have created this profolio to show case my work to potential employers.
+I have created this profolio to showcase my work to potential employers.
 I have created links to my virtual business card as well as my LinkedIn accounts, both of these have my picture, I thought a catchy phrase box would be more fitting than having my picture displayed on the portfolio.
 
 I was unable to create a larger first picture at this time, but I will keep working on it.
 
-All my links work even though some of them don't go anywhere at this time.
+All my links work even though some are not active.
 The links that are active, open the target in a new tab.
 
+The page displays correctly through all screen sizes.
 
+
+Live Site
 https://barry25000.github.io/portfolio/
+
+Repo
+https://github.com/Barry25000/portfolio

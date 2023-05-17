@@ -79,14 +79,37 @@ body {
     margin-left: 4px;
   }
 
+.work {
+  display: flex;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  }
+
+
   #work h1 {
     border-right: 3px solid;
     padding-left: 119px;
-    padding-top: 80px;
+    padding-top: 249px;
     padding-right: 8px;
     font-size: 25px;
   }
       
+.image_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.big_image {
+  height: 300px;
+  width: 400px;
+
+}
+
+
   #work img {
    padding-left: 50px;
   }

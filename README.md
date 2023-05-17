@@ -35,8 +35,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 I have created this profolio to showcase my work to potential employers.
 I have created links to my virtual business card as well as my LinkedIn accounts, both of these have my picture, I thought a catchy phrase box would be more fitting than having my picture displayed on the portfolio.
 
-I was unable to create a larger first picture at this time, but I will keep working on it.
-
 All my links work even though some are not active.
 The links that are active, open the target in a new tab.
 

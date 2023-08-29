@@ -8,8 +8,8 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background: #13293d;
-  color: #fff;
+  background: #4a5055;
+  color: white;
   position: relative;
   min-height: 60px;
 }
@@ -31,6 +31,7 @@ nav a {
   padding: 14px 40px 14px 20px;
   text-decoration: none;
   text-align: right;
+  font-size: 20px;
 }
 
 .pop_text {
@@ -40,56 +41,57 @@ nav a {
   position: absolute;
   padding: 1px 1px 1px 1px;
   bottom: -15px;
-  right: 145px;
+  right: 176px;
   text-align: center;
   justify-content: center;
   align-items: center;
   display: flex;
   color: black;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 #about_me {
-  padding-top: 40px;
-  padding-left: 43px;
-  padding-bottom: 20px;
   text-align: left;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 20px;
+  padding-top: 50px;
+  margin-left: 4px;
 }
 
 #about_me h1 {
   border-right: 3px solid;
-  padding-right: 10px;
-  padding-top: 15px;
-  padding-left: 6px;
+  padding-left: 70px;
+  padding-top: 170px;
+  padding-right: 8px;
   font-size: 25px;
 }
 
-#about_me p {
+#p-about {
   width: 75%;
-  padding-left: 52px;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  text-align: left;
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin-left: 20px;
+  display: inline-block;
 }
 
 #work {
   text-align: left;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 20px;
+  padding-top: 50px;
   margin-left: 4px;
-}
-
-.work {
-  display: flex;
-  padding-top: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 #work h1 {
   border-right: 3px solid;
   padding-left: 119px;
-  padding-top: 249px;
+  padding-top: 200px;
   padding-right: 8px;
   font-size: 25px;
 }
@@ -126,7 +128,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   margin-left: 29px;
-  padding-top: 40px;
+  padding-top: 100px;
 }
 
 #contact_me h1 {
@@ -140,6 +142,7 @@ footer {
   align-items: center;
   justify-content: right;
   padding-left: 51px;
+  font-size: 25px;
 }
 
 footer a {
@@ -150,5 +153,5 @@ footer a {
 }
 
 a:hover {
-  color: green;
+  color: red;
 }
